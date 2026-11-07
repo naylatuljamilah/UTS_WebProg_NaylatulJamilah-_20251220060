@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    /* width: 100%; */
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
+}
+@media(min-width: 768px){
+    main{
+        grid-template-columns: 1fr 2fr;
+    }
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    border: 2px ;
+}
+section h2{
+    color: palevioletred;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid purple;
+    padding-bottom: 1rem;
+}
+ section form ul{
+    margin-bottom: 1rem;
+}
+label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid pink;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+select{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid pink;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid pink;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: palevioletred;
+    color: antiquewhite;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+button:active {
+    background-color: plum;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+tr th{
+    padding: 0.5rem;
+    text-align: center;
+    background-color: rgb(255, 220, 225);
+}
+td{
+    padding: 0.5rem;
+    text-align: center;
+}
+footer{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
